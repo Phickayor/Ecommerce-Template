@@ -1,0 +1,32 @@
+{
+  "name": "Clothes",
+  "categoryImage": "/images/clothes_cat.jpeg",
+  "subcategories": [
+    {
+      "name": "Men's Wear",
+      "subcategories": [
+        "T-Shirts",
+        "Shirts",
+        "Jeans",
+        "Jackets",
+        "Suits",
+        "Activewear",
+        "Shorts",
+        "Sweaters"
+      ]
+    },
+    {
+      "name": "Women's Wear",
+      "subcategories": [
+        "Dresses",
+        "Tops",
+        "Jeans",
+        "Jackets",
+        "Suits",
+        "Activewear",
+        "Skirts",
+        "Sweaters"
+      ]
+    }
+  ]
+}

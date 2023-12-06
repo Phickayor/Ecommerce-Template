@@ -1,0 +1,36 @@
+{
+  "name": "Bags",
+  "categoryImage": "/images/bags.jpeg",
+  "subcategories": [
+    {
+      "name": "Men's Bags",
+      "subcategories": [
+        "Backpacks",
+        "Messenger Bags",
+        "Laptop Bags",
+        "Duffel Bags",
+        "Briefcases"
+      ]
+    },
+    {
+      "name": "Women's Bags",
+      "subcategories": [
+        "Tote Bags",
+        "Crossbody Bags",
+        "Clutches",
+        "Satchels",
+        "Hobo Bags"
+      ]
+    },
+    {
+      "name": "Kids' Bags",
+      "subcategories": [
+        "Backpacks",
+        "Lunch Bags",
+        "Tote Bags",
+        "Messenger Bags",
+        "School Bags"
+      ]
+    }
+  ]
+}

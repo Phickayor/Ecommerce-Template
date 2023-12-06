@@ -1,0 +1,18 @@
+{
+  "name": "Accessories",
+  "categoryImage": "/images/accessories.jpeg",
+  "subcategories": [
+    {
+      "name": "Men's Accessories",
+      "subcategories": ["Sunglasses", "Hats", "Belts", "Ties", "Wallets"]
+    },
+    {
+      "name": "Women's Accessories",
+      "subcategories": ["Sunglasses", "Hats", "Belts", "Scarves", "Wallets"]
+    },
+    {
+      "name": "Kids' Accessories",
+      "subcategories": ["Sunglasses", "Hats", "Belts", "Scarves", "Wallets"]
+    }
+  ]
+}

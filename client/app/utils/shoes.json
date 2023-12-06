@@ -1,0 +1,30 @@
+{
+  "name": "Shoes",
+  "categoryImage": "/images/shoes.webp",
+  "subcategories": [
+    {
+      "name": "Men's Shoes",
+      "subcategories": [
+        "Sneakers",
+        "Boots",
+        "Dress Shoes",
+        "Loafers",
+        "Athletic Shoes"
+      ]
+    },
+    {
+      "name": "Women's Shoes",
+      "subcategories": ["Sneakers", "Boots", "Heels", "Flats", "Sandals"]
+    },
+    {
+      "name": "Kids' Shoes",
+      "subcategories": [
+        "Sneakers",
+        "Boots",
+        "Sandals",
+        "Flats",
+        "Athletic Shoes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "section": "Clothes",
+    "name": "Red Burberry Shirt",
+    "price": 2000,
+    "image": "/images/shirt.png"
+  },
+  {
+    "section": "Bags",
+    "name": "BTS Backpack",
+    "price": 5500,
+    "image": "/images/bag.png"
+  },
+  {
+    "section": "Shoes",
+    "name": "Nike Blue Dunks",
+    "price": 5500,
+    "image": "/images/shoe.png"
+  },
+  {
+    "section": "Jewelery",
+    "name": "Solo Necklace",
+    "price": 2000,
+    "image": "/images/necklace.png"
+  },
+  {
+    "section": "Accessories",
+    "name": "Prada Sunglasses",
+    "price": 5500,
+    "image": "/images/sunglasses.png"
+  }
+]

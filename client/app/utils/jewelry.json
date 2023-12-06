@@ -1,0 +1,37 @@
+{
+  "name": "Jewelry",
+ "categoryImage": "/images/jewelry.jpeg",
+
+  "subcategories": [
+    {
+      "name": "Men's Jewelry",
+      "subcategories": [
+        "Necklaces",
+        "Bracelets",
+        "Rings",
+        "Watches",
+        "Cufflinks"
+      ]
+    },
+    {
+      "name": "Women's Jewelry",
+      "subcategories": [
+        "Necklaces",
+        "Earrings",
+        "Bracelets",
+        "Rings",
+        "Watches"
+      ]
+    },
+    {
+      "name": "Kids' Jewelry",
+      "subcategories": [
+        "Necklaces",
+        "Earrings",
+        "Bracelets",
+        "Rings",
+        "Watches"
+      ]
+    }
+  ]
+}

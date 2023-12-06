@@ -1,6 +1,6 @@
 import React from "react";
 function Hero() {
-  const categories = ["CLOTHES","SHOES","JEWELRIES","BAGS"]
+  const categories = ["CLOTHES", "SHOES", "JEWELRIES", "BAGS"];
   return (
     <div className="mx-3 sm:mx-5">
       <div className="flex lg:flex-row flex-col justify-between gap-5">
@@ -27,15 +27,19 @@ function Hero() {
           </div>
         </div>
         <div className="lg:w-4/12 grid grid-cols-2 gap-3 md:gap-5">
-          {categories.map((category,index)=>(<div key={index} className="relative ">
-            <img
-              src="https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&w=4000"
-              className="h-full object-cover rounded-lg"
-            />
-            <div className="group absolute top-0 text-center w-full h-full hover:backdrop-blur cursor-pointer flex flex-col justify-center rounded-lg">
-              <h1 className="relative text-xl md:text-2xl hidden group-hover:block font-semibold duration-300">{category}</h1>
+          {categories.map((category, index) => (
+            <div key={index} className="relative ">
+              <img
+                src="https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&w=4000"
+                className="h-full object-cover rounded-lg"
+              />
+              <div className="group absolute top-0 text-center w-full h-full hover:backdrop-blur cursor-pointer flex flex-col justify-center rounded-lg">
+                <h1 className="relative text-xl md:text-2xl hidden group-hover:block font-semibold duration-300">
+                  {category}
+                </h1>
+              </div>
             </div>
-          </div>))}
+          ))}
         </div>
       </div>
     </div>
