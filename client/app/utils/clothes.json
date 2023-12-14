@@ -1,6 +1,6 @@
 {
   "name": "Clothes",
-  "categoryImage": "/images/clothes_cat.jpeg",
+  "categoryImage": "/images/clothes.jpeg",
   "subcategories": [
     {
       "name": "Men's Wear",

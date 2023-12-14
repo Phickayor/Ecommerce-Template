@@ -23,7 +23,12 @@ const userSchema = new mongoose.Schema(
       type: Boolean,
       default: false
     },
-
+    favourites: [
+      {
+        ref: "favourite",
+        type: mongoose.Schema.Types.ObjectId
+      }
+    ],
     cart: [
       {
         ref: "cart",

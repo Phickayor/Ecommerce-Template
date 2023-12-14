@@ -11,13 +11,18 @@ const registerUser = async (
 ) => {
   try {
     let { email, password, userName } = req.body;
-    let hashedPassword = await encyrptPassword(password);
-    await userModel.create({
-      email,
-      password: hashedPassword,
-      userName
-    });
-    res?.status(200).json({ message: "User Created Successfully" });
+    const findUser = await userModel.findOne({ email });
+    if (!findUser) {
+      let hashedPassword = await encyrptPassword(password);
+      await userModel.create({
+        email,
+        password: hashedPassword,
+        userName
+      });
+      res?.status(200).json({ message: "User Created Successfully" });
+    } else {
+      res.status(400).json({ message: "User Already Exists" });
+    }
   } catch (error) {
     res?.status(400).json({ message: `Error: ${error.message}` });
   }
